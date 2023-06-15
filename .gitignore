@@ -1,0 +1,40 @@
+.DS_Store
+node_modules
+/dist
+output*
+
+# Log files
+npm*
+yarn*
+pnpm-debug.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# temp public & internal CA cert download
+cacert.pem
+internal-ca.pem
+
+/tests/e2e/videos/
+/tests/e2e/screenshots/
+/tests/e2e/reports/
+/tests/unit/reports/
+/dist
+/.idea
+test-results.xml
+
+# local env files
+.env.local
+.env.*.local
+
+# Test coverage
+.nyc_output*
+coverage*
+
+
